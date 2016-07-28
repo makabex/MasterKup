@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE94F331D4993DB009EAE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F321D4993DB009EAE46 /* AppDelegate.swift */; };
+		EFE94F351D4993DB009EAE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F341D4993DB009EAE46 /* ViewController.swift */; };
+		EFE94F381D4993DB009EAE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE94F361D4993DB009EAE46 /* Main.storyboard */; };
+		EFE94F3A1D4993DB009EAE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE94F391D4993DB009EAE46 /* Assets.xcassets */; };
+		EFE94F3D1D4993DB009EAE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE94F3B1D4993DB009EAE46 /* LaunchScreen.storyboard */; };
+		EFE94F481D4993DB009EAE46 /* Master_KupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F471D4993DB009EAE46 /* Master_KupTests.swift */; };
+		EFE94F531D4993DB009EAE46 /* Master_KupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F521D4993DB009EAE46 /* Master_KupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE94F441D4993DB009EAE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE94F271D4993DA009EAE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE94F2E1D4993DA009EAE46;
+			remoteInfo = "Master Kup";
+		};
+		EFE94F4F1D4993DB009EAE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE94F271D4993DA009EAE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE94F2E1D4993DA009EAE46;
+			remoteInfo = "Master Kup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE94F2F1D4993DB009EAE46 /* Master Kup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Kup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE94F321D4993DB009EAE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFE94F341D4993DB009EAE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFE94F371D4993DB009EAE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE94F391D4993DB009EAE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE94F3C1D4993DB009EAE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE94F3E1D4993DB009EAE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE94F431D4993DB009EAE46 /* Master KupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Master KupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE94F471D4993DB009EAE46 /* Master_KupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master_KupTests.swift; sourceTree = "<group>"; };
+		EFE94F491D4993DB009EAE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE94F4E1D4993DB009EAE46 /* Master KupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Master KupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE94F521D4993DB009EAE46 /* Master_KupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master_KupUITests.swift; sourceTree = "<group>"; };
+		EFE94F541D4993DB009EAE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE94F2C1D4993DA009EAE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F401D4993DB009EAE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F4B1D4993DB009EAE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE94F261D4993DA009EAE46 = {
+			isa = PBXGroup;
+			children = (
+				EFE94F311D4993DB009EAE46 /* Master Kup */,
+				EFE94F461D4993DB009EAE46 /* Master KupTests */,
+				EFE94F511D4993DB009EAE46 /* Master KupUITests */,
+				EFE94F301D4993DB009EAE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE94F301D4993DB009EAE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE94F2F1D4993DB009EAE46 /* Master Kup.app */,
+				EFE94F431D4993DB009EAE46 /* Master KupTests.xctest */,
+				EFE94F4E1D4993DB009EAE46 /* Master KupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE94F311D4993DB009EAE46 /* Master Kup */ = {
+			isa = PBXGroup;
+			children = (
+				EFE94F321D4993DB009EAE46 /* AppDelegate.swift */,
+				EFE94F341D4993DB009EAE46 /* ViewController.swift */,
+				EFE94F361D4993DB009EAE46 /* Main.storyboard */,
+				EFE94F391D4993DB009EAE46 /* Assets.xcassets */,
+				EFE94F3B1D4993DB009EAE46 /* LaunchScreen.storyboard */,
+				EFE94F3E1D4993DB009EAE46 /* Info.plist */,
+			);
+			path = "Master Kup";
+			sourceTree = "<group>";
+		};
+		EFE94F461D4993DB009EAE46 /* Master KupTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE94F471D4993DB009EAE46 /* Master_KupTests.swift */,
+				EFE94F491D4993DB009EAE46 /* Info.plist */,
+			);
+			path = "Master KupTests";
+			sourceTree = "<group>";
+		};
+		EFE94F511D4993DB009EAE46 /* Master KupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE94F521D4993DB009EAE46 /* Master_KupUITests.swift */,
+				EFE94F541D4993DB009EAE46 /* Info.plist */,
+			);
+			path = "Master KupUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE94F2E1D4993DA009EAE46 /* Master Kup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE94F571D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master Kup" */;
+			buildPhases = (
+				EFE94F2B1D4993DA009EAE46 /* Sources */,
+				EFE94F2C1D4993DA009EAE46 /* Frameworks */,
+				EFE94F2D1D4993DA009EAE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Master Kup";
+			productName = "Master Kup";
+			productReference = EFE94F2F1D4993DB009EAE46 /* Master Kup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE94F421D4993DB009EAE46 /* Master KupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE94F5A1D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master KupTests" */;
+			buildPhases = (
+				EFE94F3F1D4993DB009EAE46 /* Sources */,
+				EFE94F401D4993DB009EAE46 /* Frameworks */,
+				EFE94F411D4993DB009EAE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE94F451D4993DB009EAE46 /* PBXTargetDependency */,
+			);
+			name = "Master KupTests";
+			productName = "Master KupTests";
+			productReference = EFE94F431D4993DB009EAE46 /* Master KupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE94F4D1D4993DB009EAE46 /* Master KupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE94F5D1D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master KupUITests" */;
+			buildPhases = (
+				EFE94F4A1D4993DB009EAE46 /* Sources */,
+				EFE94F4B1D4993DB009EAE46 /* Frameworks */,
+				EFE94F4C1D4993DB009EAE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE94F501D4993DB009EAE46 /* PBXTargetDependency */,
+			);
+			name = "Master KupUITests";
+			productName = "Master KupUITests";
+			productReference = EFE94F4E1D4993DB009EAE46 /* Master KupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE94F271D4993DA009EAE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dennis Pham";
+				TargetAttributes = {
+					EFE94F2E1D4993DA009EAE46 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFE94F421D4993DB009EAE46 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFE94F2E1D4993DA009EAE46;
+					};
+					EFE94F4D1D4993DB009EAE46 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFE94F2E1D4993DA009EAE46;
+					};
+				};
+			};
+			buildConfigurationList = EFE94F2A1D4993DA009EAE46 /* Build configuration list for PBXProject "Master Kup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE94F261D4993DA009EAE46;
+			productRefGroup = EFE94F301D4993DB009EAE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE94F2E1D4993DA009EAE46 /* Master Kup */,
+				EFE94F421D4993DB009EAE46 /* Master KupTests */,
+				EFE94F4D1D4993DB009EAE46 /* Master KupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE94F2D1D4993DA009EAE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE94F3D1D4993DB009EAE46 /* LaunchScreen.storyboard in Resources */,
+				EFE94F3A1D4993DB009EAE46 /* Assets.xcassets in Resources */,
+				EFE94F381D4993DB009EAE46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F411D4993DB009EAE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F4C1D4993DB009EAE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE94F2B1D4993DA009EAE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE94F351D4993DB009EAE46 /* ViewController.swift in Sources */,
+				EFE94F331D4993DB009EAE46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F3F1D4993DB009EAE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE94F481D4993DB009EAE46 /* Master_KupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE94F4A1D4993DB009EAE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE94F531D4993DB009EAE46 /* Master_KupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE94F451D4993DB009EAE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE94F2E1D4993DA009EAE46 /* Master Kup */;
+			targetProxy = EFE94F441D4993DB009EAE46 /* PBXContainerItemProxy */;
+		};
+		EFE94F501D4993DB009EAE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE94F2E1D4993DA009EAE46 /* Master Kup */;
+			targetProxy = EFE94F4F1D4993DB009EAE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE94F361D4993DB009EAE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE94F371D4993DB009EAE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE94F3B1D4993DB009EAE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE94F3C1D4993DB009EAE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE94F551D4993DB009EAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE94F561D4993DB009EAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE94F581D4993DB009EAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Master Kup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-Kup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFE94F591D4993DB009EAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Master Kup/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-Kup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFE94F5B1D4993DB009EAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Master KupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-KupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Master Kup.app/Master Kup";
+			};
+			name = Debug;
+		};
+		EFE94F5C1D4993DB009EAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Master KupTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-KupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Master Kup.app/Master Kup";
+			};
+			name = Release;
+		};
+		EFE94F5E1D4993DB009EAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Master KupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-KupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Master Kup";
+			};
+			name = Debug;
+		};
+		EFE94F5F1D4993DB009EAE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Master KupUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dennis..Master-KupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Master Kup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE94F2A1D4993DA009EAE46 /* Build configuration list for PBXProject "Master Kup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE94F551D4993DB009EAE46 /* Debug */,
+				EFE94F561D4993DB009EAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE94F571D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master Kup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE94F581D4993DB009EAE46 /* Debug */,
+				EFE94F591D4993DB009EAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE94F5A1D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master KupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE94F5B1D4993DB009EAE46 /* Debug */,
+				EFE94F5C1D4993DB009EAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE94F5D1D4993DB009EAE46 /* Build configuration list for PBXNativeTarget "Master KupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE94F5E1D4993DB009EAE46 /* Debug */,
+				EFE94F5F1D4993DB009EAE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE94F271D4993DA009EAE46 /* Project object */;
+}
