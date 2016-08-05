@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9553969E1D51369700CD83DD /* SquareDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9553969D1D51369700CD83DD /* SquareDraw.swift */; };
 		955396A21D51563400CD83DD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955396A11D51563400CD83DD /* Photo.swift */; };
+		95B1868A1D53D8BB00573792 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B186891D53D8BB00573792 /* Menu.swift */; };
+		95B1868C1D53E28900573792 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B1868B1D53E28900573792 /* PageItemController.swift */; };
 		EFE94F331D4993DB009EAE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F321D4993DB009EAE46 /* AppDelegate.swift */; };
 		EFE94F351D4993DB009EAE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE94F341D4993DB009EAE46 /* ViewController.swift */; };
 		EFE94F381D4993DB009EAE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE94F361D4993DB009EAE46 /* Main.storyboard */; };
@@ -36,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9553969D1D51369700CD83DD /* SquareDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareDraw.swift; sourceTree = "<group>"; };
 		955396A11D51563400CD83DD /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		95B186891D53D8BB00573792 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		95B1868B1D53E28900573792 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
 		EFE94F2F1D4993DB009EAE46 /* Master Kup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Kup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE94F321D4993DB009EAE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE94F341D4993DB009EAE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +106,12 @@
 				EFE94F321D4993DB009EAE46 /* AppDelegate.swift */,
 				EFE94F341D4993DB009EAE46 /* ViewController.swift */,
 				EFE94F361D4993DB009EAE46 /* Main.storyboard */,
-				9553969D1D51369700CD83DD /* SquareDraw.swift */,
 				EFE94F391D4993DB009EAE46 /* Assets.xcassets */,
 				EFE94F3B1D4993DB009EAE46 /* LaunchScreen.storyboard */,
 				EFE94F3E1D4993DB009EAE46 /* Info.plist */,
 				955396A11D51563400CD83DD /* Photo.swift */,
+				95B186891D53D8BB00573792 /* Menu.swift */,
+				95B1868B1D53E28900573792 /* PageItemController.swift */,
 			);
 			path = "Master Kup";
 			sourceTree = "<group>";
@@ -263,9 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				955396A21D51563400CD83DD /* Photo.swift in Sources */,
-				9553969E1D51369700CD83DD /* SquareDraw.swift in Sources */,
 				EFE94F351D4993DB009EAE46 /* ViewController.swift in Sources */,
+				95B1868C1D53E28900573792 /* PageItemController.swift in Sources */,
 				EFE94F331D4993DB009EAE46 /* AppDelegate.swift in Sources */,
+				95B1868A1D53D8BB00573792 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
